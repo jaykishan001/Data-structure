@@ -1,9 +1,8 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
-int main() {
-    vector<int> arr = {1,2,3,4,5,6,7};
-    for(auto it = arr.begin()+2 ; it != arr.end(); it++) {
-        cout<<*(it)<<" ";
-    }
-    }
+int main(){
+    int x=10;
+   int* ptr = &x; 
+   cout<<*ptr;
+}
